@@ -1,21 +1,4 @@
-main + p {
- 
- color:blue;
- font-family: cursive;
-
-}
-
-
-
-
-h1 ~ p {
+#king {
+    text-decoration-color: red;
     font-family: cursive;
-
-}
-
-aside p {
-   color:yellow;
-   border: 5px solid black; 
-   background-color:red; 
-
 }
