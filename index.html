@@ -14,10 +14,22 @@
   <title>Test</title>
   <link rel= "icon" href= "icons/android_icon.png">
   <link rel= "stylesheet" href= "o.css">
-  <link rel = "alternate stylesheet" type= "type/css" href= "C:\Users\leonk_000\faaaaaaaaaaaaaaaaaaaaaaaaaagot.css">
+  <link rel = "alternate stylesheet" type= "type/css" href= "C:\Users\leonk_000\faaaaaaaaaaaaaaaaaaaaaaaaaagot.css" onload= "sheetLoaded()" onerror "sheeterror">
 
 </head>
 <body>
+    <script>
+        function sheetLoaded() {
+          // Do something interesting; the sheet has been loaded
+           alert('Sheet Loaded')
+        }
+        
+        function sheetError() {
+          console.log("An error occurred loading the stylesheet!");
+        }
+
+
+        </script>
   <h1><u> Lebron Jemes</u> </h1>
 
 
