@@ -3,7 +3,7 @@ body, html {
 }
 
 body {
-  background-image: url('downloads/ewol2.jpg');
+  background-image: url('../downloads/ewol2.jpg');
   background-position: center;
 
 }
