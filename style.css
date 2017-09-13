@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+}
+
+body {
+  background-image: url('downloads/ewol2.jpg');
+  background-position: center;
+
+}
+
+
+p {
+ color: blue;
+ text-align: center;
+
+}
+
+#notification {
+    position: absolute;
+    bottom: 47em;
+    left: 94rem;
+    border: 3px solid #73AD2;
+    height: 4%;
+    
+}
+
+#nav { 
+  position: absolute;
+  bottom:47em;
+  right:96em; 
+  border: 3px solid #73AD2;
+  height: 4%;
+
+}
+
+.main-header {
+  text-align: center;
+}
+
+header > img { 
+   height: 10%;
+   width: 20%;
+  
+}
+
+.profile { 
+  text-align: center;
+}
+
+.profile > img { 
+  position: absolute;
+  bottom: 54%;
+  left:42%;
+  height: 28%;
+  width: 13%;
+  
+
+}
+
+.emails-login {
+  position: absolute; 
+  right: 46%;
+  bottom:46%;
+}
+
+.passwords-login { 
+  position: absolute;
+  right:46%; 
+  bottom: 34%;
+
+}
